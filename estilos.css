@@ -1,0 +1,65 @@
+    body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .menu {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    }
+
+    .menu h1 {
+    color: #4b7f6d;
+    margin-bottom: 24px;
+    font-size: 22px;
+    }
+
+    .botones {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    }
+
+    .boton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d7ead7;
+    color: #355c4d;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .boton:hover,
+    .boton:focus {
+    background-color: #c2e0c2;
+    transform: scale(1.03);
+    }
+
+    .boton img {
+    width: 28px;
+    height: 20px;
+    margin-right: 12px;
+    border-radius: 3px;
+    object-fit: cover;
+    }
